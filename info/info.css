@@ -1,0 +1,109 @@
+body{
+    background-size: 1920px 1080px;
+    /* width: 1920px;
+    height: 1080px; */
+    background-color: rgb(16, 16, 189);
+    margin: 0%;
+}
+
+h1{
+    position: relative;
+    top: 19vh;
+    text-align: center;
+    color: aliceblue;
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.5vw;
+    font-kerning: auto;
+}
+
+h3{
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    color: aliceblue;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3vw;
+    font-kerning: auto;
+
+}
+
+
+/* #header{
+    position: relative;
+    top: 1vh;
+} */
+
+
+.navbar a{
+    position: relative;
+    top: 0.7vh;
+    left: 44.5vw;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 7px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1vw;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: rgb(18, 18, 215);
+    
+}
+
+
+
+#facts{
+    position: absolute;
+    top: 50.5vh;
+    left: 32vw;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(18, 18, 215);
+    padding: 2.5vh 2.5vh;
+    text-align: center;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.15vw;
+    cursor: pointer;
+    border-radius: 2vh;
+}
+#facts:hover{
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    border: 0.5px solid aliceblue;
+}
+
+#make{
+    position: absolute;
+    top: 50.5vh;
+    right: 32vw;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(18,18, 215);
+    padding: 2.5vh 2.5vh;
+    text-align: center;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.15vw;
+    cursor: pointer;
+    border-radius: 2vh;
+}
+
+#make:hover{
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    border: 0.5px solid aliceblue;
+}
