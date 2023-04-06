@@ -1,0 +1,74 @@
+body{
+    background-image: url("img/web background.png") ;
+    
+}
+
+h1{
+    position: relative;
+    top: 3vh;
+    text-align: center;
+    color: rgb(18, 18, 215);
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    font-kerning: auto;
+}
+
+h3{
+    position: relative;
+    top: 3vh;
+    left:3vw;
+    text-align: left;
+    color: rgb(92, 92, 92);
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7vw;
+    font-kerning: auto;
+
+}
+
+button{
+    position: relative;
+    top: 3vh;
+    left: 47vw;
+    background-color: rgb(18, 18, 215);
+    border: none;
+    color: aliceblue;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
+#image{
+    position: relative;
+    top: 7vh;
+    left: 28vw;
+    height: 60vh;
+}
+
+
+.navbar a{
+    position: relative;
+    top: 1vh;
+    left: 47.4vw;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 7px;
+    color: rgb(18, 18, 215);
+    text-decoration: none;
+    font-size: 1vw;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    
+}
+

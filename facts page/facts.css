@@ -1,0 +1,204 @@
+body{
+    background-size: auto;
+    background-position: center;
+    background-position-y: 3%;
+    background-image: url("img/web background.png") ;
+    background-size: 1920px 1080px;
+}
+
+h1{
+    position: relative;
+    top: 8vh;
+    transform-origin: center;
+    text-align: center;
+    color: rgb(18, 18, 215);
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5vw;
+    font-kerning: auto;
+}
+
+h3{
+    position: relative;
+    top: 4vh;
+    text-align: center;
+    color:rgb(18, 18, 215);
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.9vw;
+    font-kerning: auto;
+
+}
+
+button{
+    position: relative;
+    top: 8vh;
+    left: 47vw;
+    background-color: rgb(18, 18, 215);
+    border: none;
+    color: aliceblue;
+    padding: 2vh 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
+.navbar a{
+    position: relative;
+    top: 0.25vh;
+    left: 44.3vw;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 7px;
+    color: rgb(18, 18, 215);
+    text-decoration: none;
+    font-size: 1vw;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    
+}
+
+#history{
+    position: absolute;
+    height: 30vh;
+    top: 45vh;
+    left: 22.5vw;
+}
+
+.card1:hover .img1{
+    display: none;
+}
+
+
+.hover_img1{
+    display: none;
+
+}
+.card1:hover .hover_img1{
+   display: inline-block;
+
+}
+
+#factimg{
+    position: absolute;
+    height: 30vh;
+    top: 45vh;
+    left: 42.5vw;
+}
+
+.card2:hover .img2{
+    display: none;
+}
+
+
+.hover_img2{
+    display: none;
+
+}
+.card2:hover .hover_img2{
+   display: inline-block;
+
+}
+
+
+#purpose{
+    position: absolute;
+    height: 30vh;
+    top: 45vh;
+    left: 62.5vw;
+}
+
+.card3:hover .img3{
+    display: none;
+}
+
+.hover_img3{
+    display: none;
+
+}
+.card3:hover .hover_img3{
+   display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRY 1 */
+
+
+/* .hidden{
+    display: none;
+} */
+
+#facts{
+    position: absolute;
+    transform-origin: center;
+    left: 37vw;
+    top: 15vh;
+    transform: translate(0, 50%);
+}
+
+
+#image{
+    width: 53vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRY 2 
+ NO CSS REQUIRED */
+
+
+/* 
+.navbar a{
+    position: relative;
+    top:2vh;
+    left: 45.4vw;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 7px;
+    color: rgb(18, 18, 215);
+    text-decoration: none;
+    font-size: 1.2vw;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    
+} */
